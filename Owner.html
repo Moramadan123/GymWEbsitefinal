@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>log page</title>
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="sidebar">
+        <h3>Power Gym : Owner Log page</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <span>Main page</span>
+            </a>
+          </li>
+          <li>
+            <a href="services.html">
+              <span>services page</span>
+            </a>
+          </li>
+          <li>
+            <a href="Branches.html">
+              <span>Branches</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <span>contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Gym Owner Enrollment</h2>
+      <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <input type="submit" value="Login" />
+      </form>
+      <div id="dashboard">
+        <div id="report">
+          <!-- Reports will be displayed here -->
+        </div>
+        <button onclick="logout()">Logout</button>
+      </div>
+    </div>
+    <script src="owner.js"></script>
+  </body>
+</html>

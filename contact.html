@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>comtact</title>
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="stylesheet" href="/webfonts/" /> -->
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="sidebar">
+        <h3>Power Gym : Contact page</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <span>Main page</span>
+            </a>
+          </li>
+          <li>
+            <a href="services.html">
+              <span>services page</span>
+            </a>
+          </li>
+          <li>
+            <a href="Branches.html">
+              <span>Branches</span>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="contact.html">
+              <span>contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class=".container2">
+      <h1 class="contact-head">Contact Power Gym</h1>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="response"></div>
+    </div>
+    <script src="contact.js"></script>
+  </body>
+</html>
